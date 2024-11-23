@@ -6,7 +6,6 @@ open Fabulous
 open Fabulous.Maui
 
 open type Fabulous.Maui.View
-open Microsoft.Maui.ApplicationModel
 open Microsoft.Maui.ApplicationModel.DataTransfer
 
 module App =
@@ -60,7 +59,7 @@ module App =
         | CopyPasswordToClipboard ->
             let copyToClipboard text =
                 async {
-                    MainThread.BeginInvokeOnMainThread(fun () -> Clipboard.Default.SetTextAsync text |> ignore)
+                    Clipboard.Default.SetTextAsync text |> Async.AwaitTask |> Async.RunSynchronously
                     return CopiedPasswordToClipboard
                 }
 
@@ -79,7 +78,7 @@ module App =
             ContentPage(
                 ContentView(
                     (VStack(spacing = 25.) {
-                        Button(model.Password, CopiedPasswordToClipboard)
+                        Button(model.Password, CopyPasswordToClipboard)
                             .minimumWidth(200.)
                             .centerHorizontal ()
 
