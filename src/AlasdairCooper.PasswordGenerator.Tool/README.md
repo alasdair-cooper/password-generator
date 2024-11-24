@@ -1,4 +1,6 @@
-﻿# AlasdairCooper.PasswordGenerator.Tool
+﻿![Nuget](https://img.shields.io/nuget/v/AlasdairCooper.PasswordGenerator.Tool?color=eebb00&style=for-the-badge) ![Nuget](https://img.shields.io/nuget/dt/AlasdairCooper.PasswordGenerator.Tool?color=0033ee&style=for-the-badge)
+
+# AlasdairCooper.PasswordGenerator.Tool
 
 This is a basic tool for generating a password meeting several basic requirements. There are two commands available.
 
@@ -6,9 +8,16 @@ This is a basic tool for generating a password meeting several basic requirement
 
 The below commands produce the same result.
 
-`password-generator quick 32 --copy`
+```shell
+> password-generator quick 32 --copy
+xgAa9#$fWJe&X47ZE1zyp2z5lLWIB9Rm
+```
 
-`password-generator full 32 -ulns --copy`
+```shell
+> password-generator full 32 -ulns --copy
+Ewn!%x91$DczZ!£!!aO@!UBuZ8bwh164
+```
+
 
 ## `quick`
 
