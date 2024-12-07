@@ -1,4 +1,5 @@
-﻿![Nuget](https://img.shields.io/nuget/v/AlasdairCooper.PasswordGenerator.Tool?color=eebb00&style=for-the-badge) ![Nuget](https://img.shields.io/nuget/dt/AlasdairCooper.PasswordGenerator.Tool?color=0033ee&style=for-the-badge)
+﻿[![Nuget](https://img.shields.io/nuget/v/AlasdairCooper.PasswordGenerator.Tool?color=eebb00&style=for-the-badge)](https://www.nuget.org/packages/AlasdairCooper.PasswordGenerator.Tool/)
+[![Nuget](https://img.shields.io/nuget/dt/AlasdairCooper.PasswordGenerator.Tool?color=0033ee&style=for-the-badge)](https://www.nuget.org/packages/AlasdairCooper.PasswordGenerator.Tool/)
 
 # AlasdairCooper.PasswordGenerator.Tool
 
