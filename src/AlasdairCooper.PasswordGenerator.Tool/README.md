@@ -7,7 +7,7 @@ This is a basic tool for generating a password meeting several basic requirement
 
 ## Quick Start
 
-The below commands produce the same result.
+The commands below produce the same result.
 
 ```shell
 > password-generator quick 32 --copy
